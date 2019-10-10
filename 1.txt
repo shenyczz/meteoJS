@@ -5,10 +5,11 @@ https://github.com/shenyczz/meteoJS
 2、Git 全局设置:
 git config --global user.name "shenyczz"
 git config --global user.email "shenyczz@163.com"
+git config --global credential.helper store
 
 3、然后开始做提交代码到码云的配置
 
-cd d:/wamp/www/mall360/wap //首先指定到你的项目目录下
+cd d:\sfxCode\web\meteoJS
 git init
 touch README.md
 git add README.md
